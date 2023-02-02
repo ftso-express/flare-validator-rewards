@@ -1,0 +1,4 @@
+__pycache__
+config.yml
+.python-version
+*.copy.py
