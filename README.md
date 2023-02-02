@@ -48,9 +48,9 @@ SGB: 0x33ddae234e403789954cd792e1febdbe2466adc2
 ╭─────────────────────────────────────────────────╮
 │ FTSO Express - Validator Reward Checker/Claimer │
 ╰─────────────────────────────────────────────────╯
-[17:41:35] INFO     Validator Rewards Total   [FLARE] : 549.272402559692378579                     claim_rewards.py:106
-           INFO     Validator Rewards Claimed [FLARE] : 549.272402559692371904          claim_rewards.py:107
-           INFO     Rewards Claimable [6675] WEI      : 0.000000000000006675 FLR                         claim_rewards.py:191
+[17:41:35] INFO     Validator Rewards Total   [FLARE] : 549.272402559692378579
+           INFO     Validator Rewards Claimed [FLARE] : 549.272402559692371904
+           INFO     Rewards Claimable [6675] WEI      : 0.000000000000006675 FLR
 [devops@flare src]$ 
 
 ```
@@ -62,11 +62,11 @@ SGB: 0x33ddae234e403789954cd792e1febdbe2466adc2
 ╭─────────────────────────────────────────────────╮
 │ FTSO Express - Validator Reward Checker/Claimer │
 ╰─────────────────────────────────────────────────╯
-[17:50:15] INFO     Validator Rewards Total   [FLARE] : 549.272402559692378579                                                                                                                                         claim_rewards.py:106
-           INFO     Validator Rewards Claimed [FLARE] : 549.272402559692372004          claim_rewards.py:107
-           INFO     Rewards Claimable [6575] WEI      : 0.000000000000006575 FLR                         claim_rewards.py:191
-[17:50:16] INFO     Validator Rewards Total   [FLARE] : 549.272402559692378579                     claim_rewards.py:106
-           INFO     Validator Rewards Claimed [FLARE] : 549.272402559692372004          claim_rewards.py:107
+[17:50:15] INFO     Validator Rewards Total   [FLARE] : 549.272402559692378579
+           INFO     Validator Rewards Claimed [FLARE] : 549.272402559692372004
+           INFO     Rewards Claimable [6575] WEI      : 0.000000000000006575 FLR
+[17:50:16] INFO     Validator Rewards Total   [FLARE] : 549.272402559692378579
+           INFO     Validator Rewards Claimed [FLARE] : 549.272402559692372004
 [devops@flare src]$ 
 ```
 
@@ -76,11 +76,11 @@ SGB: 0x33ddae234e403789954cd792e1febdbe2466adc2
 ╭─────────────────────────────────────────────────╮
 │ FTSO Express - Validator Reward Checker/Claimer │
 ╰─────────────────────────────────────────────────╯
-[17:49:11] INFO     Validator Rewards Total   [FLARE] : 549.272402559692378579                     claim_rewards.py:106
-           INFO     Validator Rewards Claimed [FLARE] : 549.272402559692371904          claim_rewards.py:107
-           INFO     Rewards Claimable [6675] WEI      : 0.000000000000006675 FLR                         claim_rewards.py:191
-           INFO     Claiming Rewards   [100] WEI      : 0.000000000000000100 FLR                         claim_rewards.py:202
-[17:49:14] INFO     Validator Rewards Total   [FLARE] : 549.272402559692378579                     claim_rewards.py:106
-           INFO     Validator Rewards Claimed [FLARE] : 549.272402559692372004          claim_rewards.py:107
+[17:49:11] INFO     Validator Rewards Total   [FLARE] : 549.272402559692378579
+           INFO     Validator Rewards Claimed [FLARE] : 549.272402559692371904
+           INFO     Rewards Claimable [6675] WEI      : 0.000000000000006675 FLR
+           INFO     Claiming Rewards   [100] WEI      : 0.000000000000000100 FLR
+[17:49:14] INFO     Validator Rewards Total   [FLARE] : 549.272402559692378579
+           INFO     Validator Rewards Claimed [FLARE] : 549.272402559692372004
 [devops@flare src]$
 ```
