@@ -13,7 +13,7 @@ validator:
 nodes:
   flare:
     node:
-      url: http://11.22.33.44:9650
+      url: http://
       c_chain: /ext/bc/C/rpc
       x_chain: /ext/bc/C/rpc
       p_chain: /ext/bc/C/rpc

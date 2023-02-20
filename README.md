@@ -1,5 +1,24 @@
 # README
 
+# Build
+
+`docker build -t claim_validator_rewards:0.0.1 -t claim_validator_rewards:latest .`
+
+# Run
+
+## Run (Flare)
+
+`docker run --rm -t -v $(pwd)/config.yml:/app/config.yml -v $(pwd)/logs:/app/logs claim_validator_rewards:latest`
+
+*Verbose*
+
+`docker run --rm -t -v $(pwd)/config.yml:/app/config.yml -v $(pwd)/logs:/app/logs claim_validator_rewards:latest -v`
+
+## Claim (Flare)
+
+`docker run --rm -t -v $(pwd)/config.yml:/app/config.yml -v $(pwd)/logs:/app/logs claim_validator_rewards:latest -n flare -c`
+
+
 ## Check for Rewards if Your Running a Validator
 
 ### Configure
@@ -19,8 +38,8 @@ Edit the `config.yml` file
 ### Help
 
 ```
-[devops@flare src]$ ./claim_rewards.py -h
-usage: claim_rewards.py [OPTION] ...
+[devops@flare src]$ ./claim_validator_rewards.py -h
+usage: claim_validator_rewards.py [OPTION] ...
 
 Flare Validator Rewards - Check and Claim
 
@@ -44,7 +63,7 @@ SGB: 0x33ddae234e403789954cd792e1febdbe2466adc2
 ### Check Rewards
 
 ```
-[devops@flare src]$ ./claim_rewards.py 
+[devops@flare src]$ ./claim_validator_rewards.py 
 ╭─────────────────────────────────────────────────╮
 │ FTSO Express - Validator Reward Checker/Claimer │
 ╰─────────────────────────────────────────────────╯
@@ -58,7 +77,7 @@ SGB: 0x33ddae234e403789954cd792e1febdbe2466adc2
 ### Claim Rewards - Default (as setup in config.yml)
 
 ```
-[devops@flare src]$ ./claim_rewards.py --claim
+[devops@flare src]$ ./claim_validator_rewards.py --claim
 ╭─────────────────────────────────────────────────╮
 │ FTSO Express - Validator Reward Checker/Claimer │
 ╰─────────────────────────────────────────────────╯
@@ -72,7 +91,7 @@ SGB: 0x33ddae234e403789954cd792e1febdbe2466adc2
 
 ### Claim Rewards - Specific Amount (i.e. 0.0000000000000001 FLR)
 ```
-[devops@flare src]$ ./claim_rewards.py --claim --rewards 0.0000000000000001
+[devops@flare src]$ ./claim_validator_rewards.py --claim --rewards 0.0000000000000001
 ╭─────────────────────────────────────────────────╮
 │ FTSO Express - Validator Reward Checker/Claimer │
 ╰─────────────────────────────────────────────────╯
@@ -84,3 +103,4 @@ SGB: 0x33ddae234e403789954cd792e1febdbe2466adc2
            INFO     Validator Rewards Claimed [FLARE] : 549.272402559692372004
 [devops@flare src]$
 ```
+
